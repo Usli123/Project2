@@ -26,8 +26,8 @@ int main() {
 
 	int number;
 	cin >> number;
-	int len = 5;
-	int mus[] = { 1,2,3,4,5 };
+	int len = 4;
+	int mus[] = { 1,2,3,4 };
 	if (summ(mus, len, number)) {
 		cout << "true" << endl;
 	}
